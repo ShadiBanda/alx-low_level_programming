@@ -14,5 +14,7 @@ int main(void)
 
 	printf("%s", str1);
 
-	return (0);
+	char str2[] = '\0';
+
+	return (dest);
 }
