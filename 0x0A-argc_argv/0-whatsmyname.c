@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * main - Prints name
+ * @argc: count arguments
+ * @argv: argument vector
+ *
+ * Return: Always 0 (success)
+ */
+int main(int argc, char *argv[])
+{
+	printf("%s\n", *argv);
+
+	return (0);
+}
