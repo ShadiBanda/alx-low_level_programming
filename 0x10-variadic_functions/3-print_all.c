@@ -17,13 +17,13 @@
 	{
 		va_list strings;
 		char *str;
-		unsigned int i;
+		unsigned int index;
 
 
 		va_start(strings, n);
 
 
-		for (i = 0; i < n; i++)
+		for (index = 0; index < n; index++)
 		{
 			str = va_arg(strings, char *);
 
@@ -34,7 +34,7 @@
 				printf("%s", str);
 
 
-			if (i != (n - 1) && separator != NULL)
+			if (index != (n - 1) && separator != NULL)
 				printf("%s", separator);
 		}
 
